@@ -2,7 +2,7 @@
 
 ## Introduction
 
-PyTorch automatic mixed precision (AMP) training example for ResNet50 on CIFAR10 dataset. The PyTorch AMP accelerated training by 1.5x without any loss of accuracy.
+PyTorch automatic mixed precision (AMP) training example for ResNet50 on CIFAR10 dataset. The PyTorch AMP accelerated the training by 1.5x without any loss of accuracy.
 
 ## Usages
 
