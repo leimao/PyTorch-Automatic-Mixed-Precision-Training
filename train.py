@@ -93,7 +93,6 @@ def main():
     classification_report = create_classification_report(
         model=model, test_loader=test_loader, device=cuda_device)
 
-    # Use fstring to print.
     print(f"Test Accuracy: {eval_accuracy:.3f}")
     print("Classification Report:")
     print(classification_report)
