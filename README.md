@@ -2,7 +2,7 @@
 
 ## Introduction
 
-PyTorch automatic mixed precision (AMP) training example for ResNet50 on CIFAR10 dataset. The PyTorch AMP accelerated training by 1.4x without any loss of accuracy.
+PyTorch automatic mixed precision (AMP) training example for ResNet50 on CIFAR10 dataset. The PyTorch AMP accelerated training by 1.5x without any loss of accuracy.
 
 ## Usages
 
@@ -20,7 +20,7 @@ $ docker run -it --rm --gpus device=0 --ipc=host --ulimit memlock=-1 --ulimit st
 
 ### Run ResNet50 CIFAR10 Training
 
-The ResNet50 model is trained on the CIFAR10 dataset with or without automatic mixed precision training on a machine with an Intel Core i9-9900K CPU and an NVIDIA GeForce RTX 3090 GPU.
+The ResNet50 models were trained on the CIFAR10 dataset with or without automatic mixed precision on a machine with an Intel Core i9-9900K CPU and an NVIDIA GeForce RTX 3090 GPU.
 
 #### FP32 Training
 
